@@ -1,0 +1,196 @@
+<html>
+
+<head>
+
+
+<title>PROYECTO HTML</title>
+
+<style>
+
+    ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #499DC9;
+    margin-bottom: 50px; 
+}
+    ul.menu li {
+        position: relative;
+        display: inline-block; 
+    }
+    ul.menu li a {
+        display: block;
+        padding: 15px 20px;
+        color: black;
+	transition:0.3s;
+        text-decoration: none;
+    }
+
+    ul.menu li ul {
+        display: none; 
+        position: absolute;
+        background-color: #387696;
+        min-width: 150px;
+    }
+
+    ul.menu li ul li {
+        display: block;
+    }
+   
+    ul.menu li:hover ul {
+        display: block;
+    }
+    ul.menu li a:hover {
+        background-color: #4387AB;
+	transform:scale(1.05);
+    }
+
+.titulo{
+text-align:center;
+font-size:40px;
+color:white;
+margin-top:40px;
+font-family:Arial;
+}
+
+
+.grid img{
+mask:url(https://assets.codepen.io/1101822/circles-mask-whole.svg) no-repeat center;
+-webkit-mask:url(https://assets.codepen.io/1101822/circles-mask-whole.svg) no-repeat center;
+max-width:100%;
+aspect-ratio:1;
+object-fit:cover;
+transition:0.4s;
+}
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: #0c0d20;
+  margin: 0;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:40px;
+margin-top:200px; 
+}
+
+.equipo{
+text-align:center;
+color:white;
+margin-top:120px;
+font-family:Arial;
+}
+
+.grid img:hover{
+transform:scale(1.08);
+}
+
+ul.menu{
+display:flex;
+justify-content:center;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<ul class="menu">
+
+<li><a href="index.html">INICIO</a>
+    </li>
+
+    <li><a href="#">PECES</a>
+        <ul>
+            <li><a href="https://es.wikipedia.org/wiki/Abudefduf_saxatilis">PÍNTANO</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Amphiprioninae">PAYASO</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Carassius_auratus">DORADO</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Betta_splendens">BETTA</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Synchiropus_splendidus">MANDARÍN</a></li>
+        </ul>
+    </li>
+
+    <li> <a href="#">MAMIFEROS</a>
+        <ul>
+            <li><a href="lince.html">LINCE</a></li>
+            <li><a href="wallaby.html">WALLABY</a></li>
+            <li><a href="wombat.html">WOMBAT </a></li>
+            <li><a href="Pichiciego.html">PICHICIEGO</a></li>
+            <li><a href="Equidna.html">EQUIDNA</a></li>
+        </ul>
+    </li>
+
+    <li><a href="#">ANFIBIOS</a>
+        <ul>
+            <li><a href="proyecto.html">SALAMANDRA</a></li>
+            <li><a href="proyecto.html">RANA TORO</a></li>
+            <li><a href="proyecto.html">AJOLOTE MEXICANO</a></li>
+            <li><a href="proyecto.html">TRITON CRESTADO</a></li>
+            <li><a href="proyecto.html">RANA VOLADORA </a></li>
+        </ul>
+    </li>
+
+    <li><a href="#">AVES</a>
+        <ul>
+            <li><a href="https://es.wikipedia.org/wiki/Pheucticus_ludovicianus">PICOGRUESO</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Cyanocitta_cristata">ARRENDAJO AZUL</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Cardinalis_cardinalis">CARDENAL NORTEÑO</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Ara_(animal)">GUACAMAYA</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Haliaeetus_leucocep	halus">ÁGUILA CALVA</a></li>
+        </ul>
+    </li>
+
+    <li> <a href="#">REPTILES</a>
+        <ul>
+            <li><a href="basilisco.html">BASILISCO</a></li>
+            <li><a href="dragonlagarto.html">DRAGON LAGARTO</a></li>
+            <li><a href="serpienteespinosa.html">SERPIENTE ESPINOSA </a></li>
+            <li><a href="varanoazul.html">VARANO AZUL</a></li>
+            <li><a href="Dragóndekomodo.html">DRAGON DE KOMODO</a></li>
+        </ul>
+    </li>
+
+</ul>
+ 	
+<h1 class="titulo">ANIMALES</h1>
+
+<div class="grid">
+
+ <img src="animal1.jpg">
+
+  <img src="animal2.jpg">
+
+  <img src="animal3.jpg">
+
+  <img src="animal4.jpg">
+
+</div>
+
+<div class="equipo">
+
+<h3>ALONZO MAGAÑA NUVIA</h3>
+<h3>CANTO POOT YOTÁN</h3>
+<h3>CERDA CENTENO MONSERRAT</h3>
+<h3>BALAM ALMA</h3>
+<h3>LOPEZ HIPÓLITO MARIO</h3>
+
+</div>
+
+</body>
+
+</html>
+
